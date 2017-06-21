@@ -59,17 +59,18 @@ header{
   color:white;
   padding-top: 10%;
 }
+.page-header{
+  margin-bottom: 40px;
+}
 h4>small{
-  color: white !important;
+  color: white;
   background-color: #F8AA02;
   padding: 10%;
 }
 h4{
   margin: -52px 0 40px;
 }
-.page-header{
-  margin-bottom: 40px;
-}
+
 #viaja .btn{
   color: black;
   background: white;
@@ -150,4 +151,9 @@ footer li>a:hover{
 .bordeSecApp{
   border: 2px solid white;
   padding: 2.5%;
+}
+#map{
+  width: 60%;
+  height: 70vh;
+  border: 2px solid black;
 }
