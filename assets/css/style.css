@@ -85,3 +85,8 @@ h4{
 .jumbotron{
   background-color: #F8AA02;
   border-radius: 0;
+
+footer{
+  background: #39383A;
+  padding: 3%;
+}
