@@ -39,3 +39,13 @@
 .icon-linkedin2:before {
   content: "\eaca";
 }
+
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo{
+  width: 90%;
+}

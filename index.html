@@ -16,11 +16,12 @@
 <!-- Tipografia Online -->
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
 <!-- CSS principal -->
-<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header class="container-fluid">
 <section class="bienvenida" id="bienvenida">
+  <nav class="row">
 	<!-- copiar pegar nav de -->
 	<nav class="navbar navbar-default">
 	<!-- container-fluid -->
@@ -36,15 +37,14 @@
      <a class="navbar-brand" href="#">
         <img alt="logo" src="assets/img/logo.png" class="logo">
         </a>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        </div>
+
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Viaja</a></li>
         <li><a href="#">Conduce</a></li>
         <li role="presentation"><a href="#myModal" data-toggle="modal" data-target="#inicioSesion">Inicia sesión</a></li>
       </ul>
       </nav>
-    </div>
      </header>
 <!-- Modal: user name, pass, inscrito, inscribirse -->
 
@@ -75,6 +75,26 @@
             <button type="button" name="button" class="btn ocultarMovile">
               <strong>Conviértete en un conductor</strong>
             </button>
+          </div>
+        </section>
+      </section>
+    </article>
+
+    <!-- seccion app   -->
+    <article id="app" class="container-fluid">
+      <section class="row">
+        <section class="col-md-11 col-md-pull-1 bordeSecApp">
+          <div class="col-md-3 col-md-offset-1">
+            <img src="assets/img/celular.png" alt="iPhone">
+          </div>
+          <div class="col-md-5 col-md-offset-2 lead">
+            <h2 class="ocultarMovile">Descarga la nueva app</h2>
+            <p class="ocultarMovile">
+              La versión actualizada de LabCar está llena de nuevas funciones para
+              llegar a donde quieras aún más fácil y rápido. <br>
+              <br>Con sólo tocar un botón, un  auto llega justo a tu ubicación.
+              Súbete y no te preocupes tu conductor sabe exactamente a dónde ir.
+            </p>
           </div>
         </section>
       </section>
