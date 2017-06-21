@@ -85,8 +85,69 @@ h4{
 .jumbotron{
   background-color: #F8AA02;
   border-radius: 0;
+}
+.go{
+  background-image: url(../img/conduce.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.secConduce>button{
+  background: #F8AA02;
+  color: white;
+}
+.alinear{
+  margin: 0 5% 5%;
+}
+.col-center{
+    float: none;
+    margin: 0 auto;
+}
+.secConduce{
+  background: rgba(7,0,23,.6);
+  height: 550px;
+  color: white;
+}
+.secConduce>h2{
+  margin: 40% 5% 5%;
+}
 
 footer{
   background: #39383A;
   padding: 3%;
+}
+footer li, footer i{
+  padding: 10px;
+  list-style: none;
+}
+
+footer .page-header{
+  margin-top:0px;
+}
+footer li>a, footer p, footer i{
+  color: white;
+}
+footer li>a:hover{
+  color:#F8AA02;
+}
+
+.imgFooter{
+  padding: 10px;
+  width: 50%;
+}
+.secFooterImg{
+  margin-top: 13%;
+}
+
+#app, #tarifas{
+  background: #F8AA02;
+  padding: 4.5%;
+}
+#app p, #app h2{
+  color: white;
+  padding: 3%;
+}
+.bordeSecApp{
+  border: 2px solid white;
+  padding: 2.5%;
 }
