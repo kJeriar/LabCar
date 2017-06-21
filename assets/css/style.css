@@ -49,3 +49,39 @@ header{
 .logo{
   width: 90%;
 }
+
+
+#viaja{
+  background-image: url(../img/taxi.jpg);
+  height: 690px;
+  background-size: cover;
+  background-position:bottom;
+  color:white;
+  padding-top: 10%;
+}
+h4>small{
+  color: white !important;
+  background-color: #F8AA02;
+  padding: 10%;
+}
+h4{
+  margin: -52px 0 40px;
+}
+.page-header{
+  margin-bottom: 40px;
+}
+#viaja .btn{
+  color: black;
+  background: white;
+  margin-top: 1%;
+}
+#viaja .btn:hover{
+  background:#137fd0;
+  color: white;
+}
+#inicioSesion i{
+  color: gray;
+}
+.jumbotron{
+  background-color: #F8AA02;
+  border-radius: 0;
