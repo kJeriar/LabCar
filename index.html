@@ -27,7 +27,7 @@
       <!-- header version mobil -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle </span>
+        <span class="sr-only">Toggle </span>-
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -121,7 +121,7 @@
                   <img src="assets/img/circulo.png" alt="shape">
                 </div>
                 <div class="col-sm-10 marginTop">
-                  <input class="form-control" placeholder="Ingrese su punto de partida">
+                  <input id="origen" class="form-control" placeholder="Ingrese su punto de partida">
                 </div>
               </div>
                 <!-- datos2 destino-->
@@ -130,13 +130,13 @@
                   <img src="assets/img/flecha.png" alt="shape">
                 </div>
                 <div class="col-sm-10 marginTop">
-                  <input class="form-control" placeholder="Ingrese su destino">
+                  <input id="destino" class="form-control" placeholder="Ingrese su destino">
                 </div>
               </div>
                 <!-- boton ruta-->
               <div class="form-group">
                 <div class="col-sm-offset-3 col-sm-9 marginTop">
-                  <button type="submit" class="btn">
+                  <button id="boton-ruta" type="buttom" class="btn">
                     <strong>¡TRAZAR RUTA!</strong>
                   </button>
                 </div>
@@ -223,12 +223,13 @@
     </footer>
 
 <!-- enlaces js, maps -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 
- <script src="assets/js/main.js"></script>
- <script src="assets/js/app.js"></script>
- <script src="assets/js/bootstrap.min.js"></script>
-
- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADIdryJQ49pWcW1yry-Dy_do422oxZgoU&callback=initMap" type="text/javascript"></script>
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADIdryJQ49pWcW1yry-Dy_do422oxZgoU&libraries=places&callback=initMap" type="text/javascript"></script>
  
  
   </body>
