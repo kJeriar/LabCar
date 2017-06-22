@@ -77,7 +77,7 @@ h4{
   margin-top: 1%;
 }
 #viaja .btn:hover{
-  background:#137fd0;
+  background:#2b2b2b;
   color: white;
 }
 #inicioSesion i{
@@ -129,7 +129,7 @@ footer li>a, footer p, footer i{
   color: white;
 }
 footer li>a:hover{
-  color:#F8AA02;
+  color:#f7b617;
 }
 
 .imgFooter{
@@ -152,8 +152,19 @@ footer li>a:hover{
   border: 2px solid white;
   padding: 2.5%;
 }
-#map{
-  width: 60%;
-  height: 70vh;
-  border: 2px solid black;
+#map {
+    
+    width: 600px;
+    height: 400px;
+    border: 2px solid white;
+    margin-bottom: 50px;
+}
+.btn{
+  color: black;
+  background: white;
+  margin-top: 1%;
+}
+.btn:hover{
+  background:#2b2b2b;
+  color: white;
 }

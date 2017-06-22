@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<!-- titulo pg -->
 <title>LabCar</title>
 <!-- Responsive -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,10 +24,10 @@
 	<nav class="navbar navbar-default">
 	<!-- container-fluid -->
   <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
+      <!-- header version mobil -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">Toggle </span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -36,144 +37,17 @@
         </a>
         </div>
 
+<!-- navbar derecha -->
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Viaja</a></li>
         <li><a href="#">Conduce</a></li>
-        <li role="presentation"><a href="#myModal" data-toggle="modal" data-target="#inicioSesion">Inicia sesión</a></li>
+        <li><a href="#">Inicia sesión</a></li>
       </ul>
       </nav>
      </header>
-<!-- Modal: user name, pass, inscrito, inscribirse -->
 
-      <div class="modal fade" id="inicioSesion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-                <h4 class="modal-title">Inicia sesión</h4>
-            </div>
-            <div class="modal-body">
-              <div class="text-center">
-                <img src="assets/img/perfil.png" class="perfilImg">
-              </div>
-              <form class="form-horizontal">
-                <div class="form-group marginTop">
-                  <label for="usuario" class="col-sm-2 control-label">
-                    <i class="fa fa-user" aria-hidden="true"></i>
-                  </label>
-                  <div class="col-sm-8">
-                    <input type="text" class="form-control" placeholder="Username">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="contrasena" class="col-sm-2 control-label">
-                    <i class="fa fa-lock" aria-hidden="true"></i>
-                  </label>
-                  <div class="col-sm-8">
-                    <input type="password" class="form-control" placeholder="Password">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="col-sm-offset-4 col-sm-4 text-center">
-                    <button type="submit" class="btn btn-success"><strong>LOGIN</strong></button>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-                <p>Forgot your password? &nbsp;<a href="#!">Click here</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="modal fade" id="registro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header text-center">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-              <h4 class="modal-title">¿YA TIENES UNA CUENTA?</h4>
-            </div>
-            <div class="modal-body">
-              <label for="usuario" class="col-sm-12 control-label text-center">
-                <a href="#"><h5> O CREA UNA CUENTA NUEVA </h5></a>
-              </label>
-              <form class="form-horizontal">
-                  <section class="row">
-                      <div class="form-group marginTop">
-                        <div class="col-sm-5 col-sm-offset-1 ">
-                          <input type="text" class="form-control" placeholder="Nombre">
-                        </div>
-                        <div class="col-sm-5">
-                          <input type="password" class="form-control" placeholder="Apellido">
-                        </div>
-                      </div>
-                  </section>
-                  <section class="row">
-                    <div class="form-group">
-                      <div class="col-sm-10 col-sm-offset-1 ">
-                        <input type="text" class="form-control" placeholder="Correo electrónico">
-                      </div>
-                    </div>
-                  </section>
-                  <section class="row">
-                    <div class="form-group">
-                      <div class="col-sm-10 col-sm-offset-1 ">
-                        <input type="text" class="form-control" placeholder="Teléfono">
-                      </div>
-                    </div>
-                  </section>
-                  <section class="row">
-                    <div class="form-group">
-                      <div class="col-sm-10 col-sm-offset-1 ">
-                        <input type="text" class="form-control" placeholder="Contraseña">
-                      </div>
-                    </div>
-                  </section>
-                  <section class="row">
-                    <div class="form-group">
-                      <div class="col-sm-10 col-sm-offset-1 ">
-                        <input type="text" class="form-control" placeholder="Ciudad">
-                      </div>
-                    </div>
-                  </section>
-                  <section class="row">
-                    <div class="form-group">
-                      <div class="col-sm-10 col-sm-offset-1 ">
-                        <input type="text" class="form-control" placeholder="(Opcional) Código de invitación">
-                      </div>
-                    </div>
-                  </section>
-                  <section class="row">
-                    <section class="col-sm-10 col-sm-offset-1">
-                      <select class="form-control">
-                        <option>¿Cómo te enteraste acerca de LabCar?</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                    </section>
-                  </section>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <div class="col-sm-12  text-center">
-                <button type="button" class="btn btn-info">ENVIAR</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-<div class="primera-img">
-    
 <!-- seccion viaja -->
+<div class="primera-img">
     <article id="viaja">
       <section class="container-fluid">
         <section class="row">
@@ -183,9 +57,7 @@
               <small>Viaja con</small>
               <img src="assets/img/logo-blanco.png" alt="logo" class="logoBlanco">
             </p>
-            
               <strong>REGISTRATE</strong>
-         
             <div class=" page-header ocultarMovile"></div>
             <h4 class="text-center ocultarMovile">
               <small>o bien</small>
@@ -241,7 +113,9 @@
         <section class="col-md-4 col-md-offset-1">
           <h2>Tarifas</h2>
           <p>Consulta las tarifas Labcar aquí</p>
+
           <form class="form-horizontal">
+            <!-- datos1 punto de partida-->
               <div class="form-group row">
                 <div class="col-sm-1 marginTop">
                   <img src="assets/img/circulo.png" alt="shape">
@@ -250,6 +124,7 @@
                   <input class="form-control" placeholder="Ingrese su punto de partida">
                 </div>
               </div>
+                <!-- datos2 destino-->
               <div class="form-group row">
                 <div class="col-sm-1 marginTop">
                   <img src="assets/img/flecha.png" alt="shape">
@@ -258,6 +133,7 @@
                   <input class="form-control" placeholder="Ingrese su destino">
                 </div>
               </div>
+                <!-- boton ruta-->
               <div class="form-group">
                 <div class="col-sm-offset-3 col-sm-9 marginTop">
                   <button type="submit" class="btn">
@@ -268,19 +144,12 @@
           </form>
         </section>
 
-
 <div class="row">
         <div class="col-md-4 col-sm-4" id="map">
         <!--Aquí ira nuestro mapa-->
         </div>
       </div>
-    </section>
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADIdryJQ49pWcW1yry-Dy_do422oxZgoU&callback=initMap" type="text/javascript"></script>
-    <script src="assets/js/main.js"></script>
- 
-          </a>
-        </section>
-      </section>
+    </section>     
     </article>
 
 <!-- footer -->
@@ -295,6 +164,7 @@
       <section class="row">
         <section class="col-md-3 col-md-offset-3 col-sm-12">
           <ul>
+          <!-- primera columna footer -->
             <li><a href="#">Viaja</a></li>
             <li><a href="#">Conduce</a></li>
             <li><a href="#">Ciudades</a></li>
@@ -306,6 +176,7 @@
         </section>
         <section class="col-md-3 ocultarMovile">
           <ul>
+          <!-- segunda columna footer -->
             <li><a href="#">Oportunidades</a></li>
             <li><a href="#">Nuestra Historia</a></li>
             <li><a href="#">API de LAbcar</a></li>
@@ -317,15 +188,15 @@
           </ul>
         </section>
         <section class="col-md-3 secFooterImg">
-          <a href="#">
-           <img src="assets/img/app-store.png" alt="logo" class="logoAppStore">
-
+        <!-- img app store -->
+          <a href="#"><img src="assets/img/app-store.png" alt="logo" class="logoAppStore">
           </a>
-          <a href="#">
-            <img src="assets/img/google-play.png" alt="logo" class="logoAppStore">
+         <!-- img logo GooglePlay -->
+          <a href="#"><img src="assets/img/google-play.png" alt="logo" class="logoGooglePlay">
           </a>
         </section>
       </section>
+        <!-- enlace iconos redes sociales -->
       <section class="row">
         <div class="col-md-3 col-md-offset-1">
           <a href="#">
@@ -347,10 +218,19 @@
         <section class="col-md-10 col-md-offset-1 page-header"></section>
       </section>
       <section class="col-md-offset-1">
-        <p>© 2017 LabCar, technologies Inc.</p>
+        <p>© 2017 LabCar, Technologies Inc.</p>
       </section>
     </footer>
+
+<!-- enlaces js, maps -->
+
  <script src="assets/js/main.js"></script>
+ <script src="assets/js/app.js"></script>
+ <script src="assets/js/bootstrap.min.js"></script>
+
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADIdryJQ49pWcW1yry-Dy_do422oxZgoU&callback=initMap" type="text/javascript"></script>
+ 
+ 
   </body>
 </html>
 
